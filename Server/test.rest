@@ -1,0 +1,30 @@
+### Variables
+@api = http://localhost:5000/api
+
+### 1. Obtener todos los productos
+GET {{api}}/products
+
+### 2. Crear un producto
+POST {{api}}/products
+Content-Type: application/json
+
+{
+  "name": "Teclado Mecánico RGB",
+  "sku": "TEC-001",
+  "price": 85,
+  "category": "Electrónica",
+  "stock": 10
+}
+
+### 3. Crear un usuario (Registro)
+POST {{api}}/users
+Content-Type: application/json
+
+{
+  "name": "Ivan",
+  "email": "ivan@correo.com",
+  "password": "password123"
+}
+
+### 4. Obtener todos los usuarios
+GET {{api}}/users

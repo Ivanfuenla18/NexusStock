@@ -1,0 +1,8 @@
+# Server
+Server/node_modules/
+Server/.env
+
+# Client (para cuando lo crees)
+Client/node_modules/
+Client/dist/
+.DS_Store
